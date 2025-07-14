@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  rj-smtr-app:
+    build: .
+    container_name: rj_smtr_container
+    volumes:
+      - .:/app
+    stdin_open: true
+    tty: true

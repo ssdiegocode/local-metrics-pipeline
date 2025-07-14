@@ -1,0 +1,4 @@
+apache-beam==2.64.0
+duckdb==1.2.0
+pandas==1.5.3
+numpy==1.26.4
